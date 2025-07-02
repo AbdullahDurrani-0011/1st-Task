@@ -7,6 +7,7 @@ body,
     /* justify-content: center; */
     /* overflow-x: hidden; */
     /* border: none; */
+    /* overflow: hidden; */
 }
 
 .row {
@@ -86,8 +87,7 @@ body,
 
 .header-wrapper {
     width: 100%;
-    background-color: #f9f9f9;
-    padding: 20px;
+    /* padding: 20px; */
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -232,6 +232,7 @@ body,
     text-align: center;
 }
 
+
 .image-container {
     max-width: 1200px;
     width: 100%;
@@ -240,6 +241,10 @@ body,
     background-repeat: no-repeat;
     margin: auto;
     margin-top: 25px
+}
+
+.car-img {
+    margin-top: 25px;
 }
 
 .teers {
@@ -796,9 +801,7 @@ body,
 
 
 /* blue print css */
-.blue-car {
-    margin-bottom: 150px;
-}
+
 
 .full-blue-color {
     background-color: #0C253F;
@@ -878,13 +881,55 @@ body,
 /* blue car with content  css 
         start*/
 
+
+
+
+.blue-front-car {
+    max-width: 619px;
+    margin: 54px;
+}
+
+
+.blue-car {
+    max-width: 688px;
+    width: 100%;
+    margin-bottom: 150px;
+    gap: 64px;
+}
+
+.tick-section {
+    max-width: 688px;
+    gap: 8px;
+}
+
+.tick-section h2 {
+    font-family: sans-serif;
+    font-weight: 600px;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #171717;
+
+}
+
+.tick-section p {
+    font-family: sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #404040;
+
+}
+
+
 .white-print-main {
     display: flex;
     width: 100%;
     margin: auto;
     padding: auto;
     justify-content: center;
-    /* display: flex; */
+
 }
 
 .tick-section {
@@ -917,31 +962,18 @@ body,
 }
 
 .red-ticks h4 {
+    max-width: 87px;
+    font-family: sans-serif;
+    font-weight: 600px;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+
     color: #404040;
-    ;
-}
-
-/* .tick-section h2 p{
-    display: flex;
-} */
-
-
-
-/* .red-tick {
-
-    max-width: 456px;
-    width: 100%;
-    gap: 24px;
 
 }
 
-.multi-ticks {
-    display: flex;
-    max-width: 216px;
-    width: 100%;
-    gap: 18px;
-    flex-direction: row;
-} */
+
 .multi-ticks {
     display: flex;
     align-items: center;
@@ -954,7 +986,7 @@ body,
     width: 100%;
     gap: 24px;
     display: flex;
-    gap: 40px;
+    /* gap: 40px; */
 
 }
 
@@ -972,7 +1004,7 @@ body,
 }
 
 .red-ticks-btn {
-    max-width: 259;
+    max-width: 259px;
     gap: 10px;
     border-radius: 4px;
     padding-top: 16px;
@@ -984,11 +1016,13 @@ body,
     margin-top: 80px;
     border: none;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 600px;
+    font-family: sans-serif;
+    line-height: 150%;
 }
 
 /* side by side images */
-.H-1pic {
+/* .H-1pic {
     display: flex;
     flex-direction: row;
     gap: 80px;
@@ -1010,39 +1044,9 @@ body,
     top: 4989px;
     left: 876px;
     gap: 64px;
-}
+} */
 
 /* again car image section  */
-/* .Again-car {
-    width: 100%;
-    height: auto;
-    display: flex;
-    gap: 160px;
-    padding-left: 100px;
-    
-    justify-content: center;
-}
-
-.p-3 {
-    margin: 5px;
-    padding-left: 118px;
-}
-
-.brown-car {
-    width: 451px;
-    height: 454px;
-    padding-left: 23px;
-    left: 164px;
-    border-radius: 4px;
-}
-
-.star-img {
-
-    margin: 20px;
-    padding-right: 40px;
-    margin-left: -5px;
-
-} */
 
 /* Wrapper for heading */
 
@@ -1050,7 +1054,6 @@ body,
     margin-top: 70px;
     width: 100%;
     padding: -80px;
-    /* padding: 0 20px 20px 20px; */
     margin-left: 25px;
     padding-left: 0;
     width: 100%;
@@ -1062,7 +1065,9 @@ body,
 
 
 .main-again-car-bgimg {
+    /* max-width: 1185px; */
     width: 100%;
+    /* border: 1px solid #E5E5E5; */
 
     background-image: url('./images/Lipinski-left.svg');
     background-repeat: no-repeat;
@@ -1078,8 +1083,8 @@ body,
     max-width: 1412px;
     width: 100%;
     margin: 0 auto;
-    padding: 10%;
     position: relative;
+
 
 
 }
@@ -1130,8 +1135,14 @@ body,
 
 
 .yellow-star h5 {
+    max-width: 128px;
+
+    font-family: sans-serif;
+    font-weight: 600px;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
     margin-top: 15px;
-    width: 100%;
 
 }
 
@@ -1176,7 +1187,7 @@ body,
     width: 100%;
     gap: 12px;
     position: relative;
-    left: 105%;
+    left: 93%;
     bottom: 15px;
     overflow: hidden;
 
@@ -1296,12 +1307,13 @@ body,
 
 
 .box-1 {
-    width: 344.5px;
+    width: 344px;
     border: 1px solid #d4d4d4;
     padding: 62px 32px;
     box-sizing: border-box;
     display: flex;
     align-items: center;
+    font-family: sans-serif;
 }
 
 
@@ -1331,33 +1343,33 @@ body,
 
 
 /* Full-width background */
+
+.content-clr-blue {
+    background-color: #0C253F;
+}
+
 .background-blue {
+    max-width: 1728px;
     width: 100%;
     background-color: #0C253F;
-    padding: 60px 20px;
     box-sizing: border-box;
     display: flex;
-    justify-content: center;
+    align-items: center;
     margin-top: 150px;
+    gap: 49px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Inner wrapper to keep image + content centered */
 .background-wrapper {
-    max-width: 1280px;
+    max-width: 666px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    flex-wrap: wrap;
 }
 
 /* Car image container */
 .background-blue-content {
-    flex: 1;
-    min-width: 300px;
     display: flex;
-    justify-content: center;
 }
 
 .background-blue-content img.oposite {
@@ -1365,40 +1377,55 @@ body,
     height: auto;
 }
 
-/* Text content */
-.sm-content {
-    flex: 1;
-    min-width: 300px;
-    max-width: 600px;
+.background-wrapper {
     color: white;
 }
 
-.sm-content p,
-.sm-content h2 {
+/* Text content */
+/* .sm-content {
+    
+} */
+
+.background-wrapper p,
+.background-wrapper h2 {
+
     text-align: left;
 }
 
-.sm-content h2 {
-    font-size: 24px;
-    margin: 20px 0;
-    line-height: 1.4;
+.background-wrapper h2 {
+    /* margin: 20px 0; */
+    line-height: 130%;
+    font-family: sans-serif;
+    font-weight: 700px;
+    font-size: 36px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+
+
+
 }
 
-.sm-content p {
+.background-wrapper p {
+    font-family: sans-serif;
+    font-weight: 400px;
     font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+
+
 }
 
 /* Button */
 .red-clr {
+    max-width: 259px;
     background-color: #A12D35;
     color: white;
-    padding: 16px 32px;
+    padding: 16px 32px 16px 32px;
     border: none;
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
+    margin-top: 24px;
 }
 
 /* Responsive styles */
@@ -1435,12 +1462,33 @@ body,
 }
 
 .part-1 {
-    top: 7584px;
-    left: 386px;
+
     max-width: 955px;
     margin: 0 auto;
     padding: 40px 20px;
     text-align: center;
+    gap: 16px;
+
+}
+
+.part-1 h1 {
+    font-family: sans-serif;
+    font-weight: 700px;
+    font-size: 36px;
+    line-height: 114%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.part-1 p {
+    font-family: sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #374151;
 
 }
 
@@ -1451,7 +1499,8 @@ body,
     width: 100%;
     max-width: 681px;
     margin: 0 auto;
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
+    color: #111827;
 }
 
 .step {
@@ -1476,15 +1525,26 @@ body,
 }
 
 h3 {
+    max-width: 279px;
     font-size: 20px;
     font-weight: bold;
     margin: 0;
     line-height: 1.4;
     margin-top: 28px;
     margin-bottom: px;
+
+
+
 }
 
 .right p {
+
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+
     color: #333;
     margin: 0;
     line-height: 1.5;
@@ -1595,7 +1655,9 @@ p {
 }
 
 /* Tabs */
+
 .nav-tabs {
+    font-family: sans-serif;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -1611,6 +1673,7 @@ p {
     border-bottom: 3px solid transparent;
     transition: all 0.3s ease;
     margin-right: 32px;
+    color: #4B5563;
 }
 
 /* Divider */
@@ -1632,6 +1695,10 @@ hr {
 /* Box styles */
 .content-box-1 h3,
 .content-box-2 h3 {
+    max-width: 515px;
+    max-height: 120px;
+    width: 100%;
+    font-family: sans-serif;
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -1715,14 +1782,21 @@ hr {
 }
 
 .cta-button {
-    padding: 12px 24px;
-    background-color: #A12D35;
+    padding: 16px 32px 16px 32px;
+    background-color: #FFFFFF;
     /* color: white; */
-    color: white;
+    color: #0C253F;
     border: none;
     border-radius: 4px;
-
     cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 600px;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    gap: 10px;
+
 }
 
 /* Image section */
@@ -1799,6 +1873,9 @@ hr {
 }
 
 .relative-container {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
     /* gap: 150; */
 
 
@@ -1812,6 +1889,7 @@ left: 224px; */
 }
 
 .menu-section {
+    font-family: sans-serif;
     display: flex;
     gap: 60px;
     flex: 1;
@@ -1825,7 +1903,7 @@ left: 224px; */
 .menu-title {
     font-size: 16px;
     font-weight: 600;
-    color: #333;
+    color: #1F2937;
     margin-bottom: 16px;
 }
 
@@ -1839,7 +1917,7 @@ left: 224px; */
 
 .menu-items a {
     text-decoration: none;
-    color: #666;
+    color: #4B5563;
     font-size: 14px;
     line-height: 1.4;
     transition: color 0.2s ease;
@@ -1856,6 +1934,7 @@ left: 224px; */
 }
 
 .footer-bottom {
+    font-family: sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1864,28 +1943,26 @@ left: 224px; */
 }
 
 .copyright {
-    color: #666;
+    color: #1F2937;
     font-size: 12px;
+
 }
 
 .footer-links {
     display: flex;
     gap: 24px;
     align-items: center;
-    padding-right: 100px;
+    /* padding-right: 100px; */
 }
 
 .footer-links a {
     text-decoration: none;
-    color: #666;
+    color: #4B5563;
     font-size: 12px;
     transition: color 0.2s ease;
 }
 
-/* 
-.footer-links a:hover {
-    color: #007bff;
-} */
+
 
 .social-icons {
     display: flex;
@@ -1894,8 +1971,9 @@ left: 224px; */
 }
 
 .social-icon {
-    width: 32px;
-    height: 32px;
+    max-width: 32px;
+    width: 100%;
+    /* height: 32px; */
     border-radius: 50%;
     background-color: #f0f0f0;
     display: flex;
@@ -1904,26 +1982,20 @@ left: 224px; */
     text-decoration: none;
     color: #666;
     font-size: 14px;
-    transition: all 0.2s ease;
+    /* transition: all 0.2s ease; */
 }
 
-/* 
-.social-icon:hover {
-    background-color: #007bff;
-    color: white;
-} */
 
 .highlight-box {
 
-    font-weight: 500;
-
+    font-weight: 500px;
     color: white;
     font-size: 12px;
-    font-weight: 500;
 
 }
 
 .sm-Logo {
-    width: 60%;
-    padding-left: 50px;
+    max-width: 204px;
+    width: 100%;
+    /* padding-left: 50px; */
 }
