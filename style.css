@@ -96,12 +96,14 @@ body,
 
 .container {
     width: 100%;
-    max-width: 1280px;
+    max-width: 1728px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    padding-top: 24px;
+    padding-left: 164px;
+    padding-right: 164px;
 }
 
 .Logo {
@@ -162,18 +164,21 @@ body,
     }
 }
 
+.Second-portion {
+    position: relative;
+}
 
 .main {
     max-width: 750px;
     width: 100%;
-    height: 257;
     margin: auto;
     gap: 32px;
+    margin-top: 75px;
 
 
 }
 
-.text {
+.text h1 {
     max-width: 750px;
     justify-content: center;
     text-align: center;
@@ -200,16 +205,18 @@ body,
 }
 
 .btn-0 {
-    width: 257px;
+    max-width: 257px;
     font-family: sans-serif;
     font-weight: 600px;
+    font-weight: bold;
+    font-style: bold;
     font-size: 18px;
     line-height: 150%;
     padding-top: 16px;
     padding-right: 32px;
     padding-bottom: 16px;
     padding-left: 32px;
-    gap: 24px;
+    /* gap: 24px; */
     border-radius: 4px;
     background-color: #0C253F;
     color: white;
@@ -217,42 +224,65 @@ body,
 }
 
 .btn-01 {
-    width: 257px;
+    max-width: 257px;
     padding-top: 16px;
     padding-right: 32px;
     padding-bottom: 16px;
     padding-left: 32px;
-    gap: 10px;
     border-radius: 4px;
     background-color: white;
     color: #0C253F;
     font-family: sans-serif;
     font-weight: 600px;
     font-size: 18px;
-    text-align: center;
 }
 
 
 .image-container {
-    max-width: 1200px;
+    max-width: 1722px;
+    /* width: 100%; */
+    width: fit-content;
+    margin: auto;
+    position: absolute;
+    background-size: contain;
+    /* max-width: 1200px;
     width: 100%;
     background-size: contain;
     background-image: url(./images/Lipinski.png );
     background-repeat: no-repeat;
     margin: auto;
-    margin-top: 25px
+    margin-top: 25px */
+}
+
+.image-container img {
+    /* display: block; */
+    width: 100%;
+    /* height: auto; */
 }
 
 .car-img {
-    margin-top: 25px;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+
+    margin-top: 80px;
+    position: relative;
+    /* width: fit-content; */
+
+    /* text-align: center; */
+    /* margin-top: -12%; */
 }
 
 .teers {
     display: flex;
+    flex-direction: row;
     max-width: 120px;
     gap: 32px;
     position: absolute;
-    left: 80%;
+    left: 1000px;
+
+    justify-content: space-between;
+    /* left: 80%; */
     /* margin-bottom : 10px; */
     /* margin-top: 25%; */
 
@@ -286,7 +316,7 @@ body,
 
 .sm-img {
     max-width: 1104px;
-    /* width: 100%; */
+    width: 100%;
     display: flex;
     padding: 16px 80px 16px 80px;
     gap: 102px;
@@ -295,16 +325,20 @@ body,
     flex-wrap: wrap;
     margin: auto;
     margin-top: 35px;
+    padding-left: 48px;
+    padding-right: 48px;
+    align-items: center;
+
 }
 
 .img-sm {
-    max-width: 120px;
-    /* height: auto; */
+    max-width: 131px;
 }
 
 /* Full-width background section */
 .full-section {
     width: 100%;
+    margin-bottom: 150px;
     /* background-color: #f5f5f5; */
     /* padding: 60px 20px;
     display: flex;
@@ -312,8 +346,11 @@ body,
     box-sizing: border-box;
     margin-top: 50px; */
     /* margin-top: 104px; */
-    padding-bottom: 150px;
-    padding-top: 104px;
+    /* padding-bottom: 150px;
+    padding-top: 104px; */
+    margin-top: 104px;
+    /* padding-left: 344px;
+    padding-left: 343px; */
 }
 
 /* Centered content */
@@ -371,10 +408,13 @@ body,
 }
 
 .ray-img-container {
-    /* margin-right: 100px; */
+
+    max-width: 737px;
+    width: 100%;
+
     position: absolute;
-    top: -600px;
-    left: -200px;
+    top: -621px;
+    left: -260px;
     /* height: 102%; */
     width: 10px;
     z-index: 100;
@@ -408,9 +448,7 @@ body,
 
 
 .service-box {
-
-
-    width: 332px;
+    max-width: 332px;
     gap: 10px;
     border-radius: 4px;
     /* padding-top: 32px;
@@ -422,8 +460,12 @@ body,
     text-align: center;
     border-radius: 4px;
     border: 1px solid #F5F5F5;
-    margin: auto;
+    /* margin: auto; */
 
+}
+
+.small-cars {
+    padding-top: 40px;
 }
 
 /* .service-box img {
@@ -434,19 +476,32 @@ body,
 } */
 
 .service-box h3 {
-    padding-top: 62px;
+    /* max-width: 64px; */
+    padding-top: 50px;
+
     font-family: sans-serif;
-    color: #171717;
     font-weight: 600px;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0%;
     text-transform: capitalize;
+    color: #171717;
+    /* align-items: center; */
 }
 
 .service-box p {
+    max-width: 298px;
+    font-family: sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
     font-size: 14px;
     color: #404040;
+    padding-bottom: 37px;
+    padding-left: 17px;
+    padding-right: 17px;
 }
 
 /* 3 icon section */
@@ -498,17 +553,20 @@ body,
 }
 
 .content h1 {
+    max-width: 417px;
     color: #FFFFFF;
     font-family: sans-serif;
     font-weight: 600px;
     font-size: 36px;
     line-height: 120%;
     letter-spacing: 0%;
+    gap: 8px;
 
 
 }
 
 .content p {
+    max-width: 793px;
     font-family: sans-serif;
     font-weight: 400px;
     font-size: 18px;
@@ -561,12 +619,14 @@ body,
 }
 
 .sm-icon h3 {
+    max-width: 278px;
     font-family: sans-serif;
     font-weight: 600px;
     font-size: 24px;
     line-height: 120%;
     letter-spacing: 0%;
     color: #FFFFFF;
+    padding-top: 62px;
 
 
 }
@@ -578,7 +638,7 @@ body,
     line-height: 150%;
     letter-spacing: 0%;
     color: #D4D4D4;
-    gap: 8px;
+    padding-top: 8px;
 
 
 }
@@ -1524,7 +1584,7 @@ body,
     margin-bottom: 5px;
 }
 
-h3 {
+/* h3 {
     max-width: 279px;
     font-size: 20px;
     font-weight: bold;
@@ -1535,7 +1595,7 @@ h3 {
 
 
 
-}
+} */
 
 .right p {
 
@@ -1628,15 +1688,13 @@ h3 {
 }
 
 /* Headings */
-h1 {
+.h1 {
     font-family: sans-serif;
-    font-weight: 600;
-    font-size: 36px;
+    font-weight: 700px;
+    font-size: 64px;
     line-height: 120%;
     letter-spacing: 0%;
-    margin-bottom: -5px;
-    padding: 10px;
-    /* margin-bottom: 20px; */
+
 }
 
 .subheading {
@@ -1646,13 +1704,13 @@ h1 {
 }
 
 /* Paragraph */
-p {
+/* p {
     font-family: sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    /* color: #404040; */
-}
+   
+} */
 
 /* Tabs */
 
@@ -1677,11 +1735,11 @@ p {
 }
 
 /* Divider */
-hr {
+/* hr {
     border: none;
     border-top: 1px solid #ddd;
     margin-bottom: 40px;
-}
+} */
 
 /* Content layout - responsive grid */
 .content-grid {
