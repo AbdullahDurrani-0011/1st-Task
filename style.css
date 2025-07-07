@@ -179,6 +179,8 @@ body,
 }
 
 .Second-portion {
+    margin: auto;
+    justify-items: center;
     /* background-color: #FAFAFA; */
     position: relative;
 }
@@ -354,6 +356,7 @@ body,
 .full-section {
     width: 100%;
     margin-bottom: 150px;
+    position: relative;
     /* background-color: #f5f5f5; */
     /* padding: 60px 20px;
     display: flex;
@@ -426,10 +429,11 @@ body,
     max-width: 737px;
     width: 100%;
     position: absolute;
-    top: -621px;
-    left: -160px;
+    /* top: -621px; */
+    left: -80px;
+    top: -1100px;
+    
     /* height: 102%; */
-    width: 10px;
     z-index: 100;
     /* pointer-events: none; */
     /* position: absolute; */
@@ -697,21 +701,21 @@ body,
     background-repeat: no-repeat; */
     /* right: 10px; */
     padding-left: 164px;
-    padding-right: 164px
-    ;
+    padding-right: 164px;
     padding-bottom: 150px;
     padding-top: 150px;
-       /* margin-bottom: 150px;
+    /* margin-bottom: 150px;
     margin-top: 150px; */
 }
-.left-side-img{
+
+.left-side-img {
     max-width: 737px;
     width: 100%;
-    position:absolute;
+    position: absolute;
     left: 0;
     top: -107px;
-    
-    
+
+
 }
 
 .white-container {
@@ -719,7 +723,7 @@ body,
     width: 100%;
     gap: 54px;
     margin: auto;
- 
+
 }
 
 .white-content {
@@ -1181,16 +1185,23 @@ body,
 
 
 .main-again-car-bgimg {
+    position: relative;
+    margin: auto;
     /* max-width: 1185px; */
     /* width: 100%; */
     /* border: 1px solid #E5E5E5; */
 
-    background-image: url('./images/Lipinski-left.svg');
+    /* background-image: url('./images/Lipinski-left.svg');
     background-repeat: no-repeat;
     background-position: left center;
     background-size: contain;
-    background-size: 150px;
+    background-size: 150px; */
 
+}
+
+.Lipinski-left {
+
+    position: absolute;
 }
 
 .car-again-h1 {
@@ -1198,7 +1209,7 @@ body,
     /* max-width: 1px;
     width: 100%; */
     border-left: 1px solid #0C253F;
-   
+
 }
 
 .Again-car {
@@ -1224,7 +1235,7 @@ body,
     text-transform: capitalize;
     color: #000000;
     gap: 58px;
-   margin-left: 24px;
+    margin-left: 24px;
 }
 
 
@@ -1563,7 +1574,7 @@ body,
 .background-wrapper {
     max-width: 666px;
     width: 100%;
-    padding-right: 164px;
+    /* padding-right: 164px; */
     gap: 24px;
 }
 
@@ -1591,7 +1602,7 @@ body,
 .background-wrapper h5 {
     font-family: "Inter";
     font-weight: 700px;
-    font-size: 16px;
+    font-size: 36px;
     line-height: 130%;
     letter-spacing: 0%;
     color: #FFFFFF;
@@ -1901,9 +1912,16 @@ body,
 
 /* 3rd last part */
 /* Background container */
-.grey-container {
-    max-width: 1728px;
+.grey-color {
+ max-width: 1728px;
+    /* width: 100%; */
     width: 100%;
+    /* background-color: #F5F5F5; */
+
+}
+
+.grey-container {
+
     background-color: #F5F5F5;
     display: flex;
     justify-content: center;
@@ -1921,6 +1939,8 @@ body,
     padding-bottom: 90px;
     padding-left: 0;
     padding-right: 0;
+        background-color: #F5F5F5;
+
     /* align-items: center; */
     /* margin: 0 auto; */
     /* padding: 0 20px; */
@@ -2114,21 +2134,24 @@ body,
 
 /* 2nd last part */
 
+.tow-img-backgorund-color {
+    background-color: #0C253F;
+
+}
+
 .Two-images {
     max-width: 1728px;
     width: 100%;
-    /* min-height: 100vh; */
     background-color: #0C253F;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 20px; */
-    box-sizing: border-box;
+    margin: auto;
+    /* box-sizing: border-box; */
 }
 
 /* Container holds content + image */
 .container-1 {
-
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -2142,6 +2165,9 @@ body,
     padding-right: 0;
     gap: 184px;
     box-sizing: border-box;
+    background-color: #0C253F;
+
+
 }
 
 /* Content section */
@@ -2235,8 +2261,12 @@ body,
 
 .right-rays {
     position: absolute;
-    right: 1145px;
-    top: 440px;
+ left: -80px;
+ /* right: 700px; */
+ top: 500px;
+ 
+    /* right: 1145px;
+    top: 440px; */
 }
 
 .relative-container {
@@ -2261,7 +2291,7 @@ left: 224px; */
     max-width: 1728px;
     width: 100%;
 
-    /* margin: auto; */
+    margin: auto;
 }
 
 /* .logo {
